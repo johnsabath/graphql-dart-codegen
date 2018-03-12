@@ -1,3 +1,9 @@
+# How does it work?
+
+http://graphql.org/graphql-js/language/#visit
+
+# Examples
+
 ## Input (github.graphql)
 
 https://gist.github.com/johnsabath/2872101c7d11b48ac4a90eedaac94960

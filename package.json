@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node main.ts"
+    "start": "nodemon"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/graphql": "^0.12.4",
+    "nodemon": "^1.17.1",
     "ts-node": "^5.0.1",
     "typescript": "^2.7.2"
   },
