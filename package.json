@@ -1,0 +1,22 @@
+{
+  "name": "graphql-dart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node main.ts",
+    "bug": "ts-node bug.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/graphql": "^0.12.4",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "@types/node": "^9.4.7",
+    "graphql": "^0.12.3"
+  }
+}
