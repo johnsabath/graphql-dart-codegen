@@ -2,7 +2,7 @@
 
 http://graphql.org/graphql-js/language/#visit
 
-# Examples
+# Example
 
 ## Input (github.graphql)
 
