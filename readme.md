@@ -1,3 +1,7 @@
+This repo came out of an exploration into GraphQL AST traversal.
+
+It was inspired by [apollo-codegen](https://github.com/apollographql/apollo-codegen)
+
 # How does it work?
 
 http://graphql.org/graphql-js/language/#visit
