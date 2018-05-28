@@ -2,13 +2,13 @@
 
 After realizing how powerful GraphQL AST traversal could be, I explored the possibility of generating boilerplate code from any GraphQL schema.  This project was inspired by [apollo-codegen](https://github.com/apollographql/apollo-codegen), which generates GraphQL client implementations for various languages.
 
-# How does it work?
+## How does it work?
 
 The majority of the heavy lifting comes from the [visit function](http://graphql.org/graphql-js/language/#visit) in GraphQL's official JavaScript implementation.  It provides a simple API for parsing a GraphQL schema by subscribing to enter/leave events for each type of GraphQL AST node.
 
-# Example
+## Example
 
-## Input (github.graphql)
+### Input (github.graphql)
 
 https://gist.github.com/johnsabath/2872101c7d11b48ac4a90eedaac94960
 
@@ -302,7 +302,7 @@ type Mutation {
 }
 ```
 
-## Output (github.dart)
+### Output (github.dart)
 
 https://gist.github.com/johnsabath/f5507b3d5dae071808e1987f75053f49
 
