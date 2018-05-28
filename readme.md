@@ -1,10 +1,10 @@
-This repo came out of an exploration into GraphQL AST traversal.
+## Purpose
 
-It was inspired by [apollo-codegen](https://github.com/apollographql/apollo-codegen)
+After realizing how powerful GraphQL AST traversal could be, I explored the possibility of generating boilerplate code from any GraphQL schema.  This project was inspired by [apollo-codegen](https://github.com/apollographql/apollo-codegen), which generates GraphQL client implementations for various languages.
 
 # How does it work?
 
-http://graphql.org/graphql-js/language/#visit
+The majority of the heavy lifting comes from the [visit function](http://graphql.org/graphql-js/language/#visit) in GraphQL's official JavaScript implementation.  It provides a simple API for parsing a GraphQL schema by subscribing to enter/leave events for each type of GraphQL AST node.
 
 # Example
 
