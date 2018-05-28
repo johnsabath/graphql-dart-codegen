@@ -6,7 +6,7 @@ After realizing how powerful GraphQL AST traversal could be, I explored the poss
 
 The majority of the heavy lifting comes from the [visit function](http://graphql.org/graphql-js/language/#visit) in GraphQL's official JavaScript implementation.  It provides a simple API for parsing a GraphQL schema by subscribing to enter/leave events for each type of GraphQL AST node.
 
-The visit function also allows for an AST node to be modified when it is visited, which was the approach [I used initially](https://github.com/johnsabath/graphql-dart-codegen/commit/6d17719822ba08813a0093f4d41910362142bec0).  Modifying the AST nodes resulted in a ~100 LoC implementation, as each node was reduced down to Dart syntax when visited, but it sacrificed code readability.
+The visit function also allows for an AST node to be modified when it is visited, which was the approach I used initially.  Modifying the AST nodes resulted in a [~100 LoC implementation](https://github.com/johnsabath/graphql-dart-codegen/commit/6d17719822ba08813a0093f4d41910362142bec0), as each node was reduced down to Dart syntax when visited, but it sacrificed code readability.
 
 ## Example
 
